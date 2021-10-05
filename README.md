@@ -69,7 +69,22 @@ To display the time we use the following code.
 ```
 document.getElementById("clock").innerText = time 
 ```
+Here, document represents the webpage, `.getElementbyId()` returns the element whose ID has been passed as the parameter in our case “clock”. And the innertext property sets the context of the node to time.
 
+And lastly, the most important part, remember I mentioned that get `date()` returns a static value. We use the` setTimeout()` method to update it. I’ve added the syntax for it below.
+```
+setTimeout(function, milliseconds, param1, param2, ...) 
+```
+This method calls or runs a function after a specified number of milliseconds. Note: 1000ms = 1 second.
+
+We use this method to update the code every second, to keep our clock running.
+```
+let t = setTimeout(function(){ currentTime() }, 1000);
+```
+And all that’s left is to run the function.
+```
+currentTime();
+```
 # Base design
 Make the basic html structure
 ```
