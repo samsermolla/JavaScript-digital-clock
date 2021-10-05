@@ -98,8 +98,7 @@ Make the basic html structure
 
 <body>
     <h1>Digital Clock</h1>
-    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-
+    <div id = "clock" onload="currentTime()"></div>
 </body>
 
 </html>
@@ -116,22 +115,15 @@ Attach Javascript file
 Will add a nice font it will center the hero div and make the background fit nicely
 ```
 body {
-    background: black;
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
 }
 
-.clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #17D4FE;
-    font-size: 60px;
-    font-family: Orbitron;
-    letter-spacing: 7px;
-   
 
 
-}
+
 ```
 
 
