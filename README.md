@@ -1,6 +1,7 @@
 # DigitalClock
-
-
+```
+![javascript digital clock](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) 
+```
 # Build your own digital clock with JavaScript
 ## What we want to have
 - Display current date
