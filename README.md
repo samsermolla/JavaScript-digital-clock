@@ -114,7 +114,7 @@ Attach Javascript file
 <script src="js/digitalclock.js"></script>
 ```
 # The Styling
-Will add a nice font it will center the hero div and make the background fit nicely
+Will add a nice font it will center the `clock` div and make the background fit nicely
 ```
 body {
   font-family: system-ui;
